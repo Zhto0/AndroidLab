@@ -1,0 +1,23 @@
+                    Executable : /Users/stan/Library/Android/sdk/cmake/3.18.1/bin/cmake
+arguments : 
+-H/Users/stan/work/AndroidLab/app/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/Users/stan/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_ANDROID_NDK=/Users/stan/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=/Users/stan/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/stan/Library/Android/sdk/cmake/3.18.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/stan/work/AndroidLab/app/build/intermediates/cxx/Debug/3z196v1y/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/stan/work/AndroidLab/app/build/intermediates/cxx/Debug/3z196v1y/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-B/Users/stan/work/AndroidLab/app/.cxx/Debug/3z196v1y/x86
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2
