@@ -12,5 +12,8 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
+includeBuild("buildsettings")
 rootProject.name = "AndroidLab"
 include ':app'
+include ':base:base-core'

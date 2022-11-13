@@ -10,18 +10,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6abe0edd-9a95-40bb-acec-3b703c98d028" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/multidex-config.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/stan/android/HostApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/base-core/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/base-core/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/base-core/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/base-core/maven-publish.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/base-core/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/base-core/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/base-core/src/main/java/com/stan/base/core/KtFileUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildsettings/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildsettings/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildsettings/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildsettings/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildsettings/src/main/java/com/stan/buildsettings/BuildVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildsettings/src/main/java/com/stan/buildsettings/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildsettings/src/main/java/com/stan/buildsettings/Depends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildsettings/src/main/java/com/stan/buildsettings/DependsPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/base.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/stan/.android/avd/Pixel_4_API_25.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[99111FFAZ002H8]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AndroidLab" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,9 +87,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/buildsettings/src/main/java/com/stan/buildsettings" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/buildsettings/src/main/java/com/stan/buildsettings" />
+      <recent name="$PROJECT_DIR$/buildsettings" />
+      <recent name="$PROJECT_DIR$/base/base-core" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.stan.buildsettings" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="AndroidLab.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -120,5 +184,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

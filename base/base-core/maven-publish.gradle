@@ -1,0 +1,31 @@
+apply plugin: 'maven-publish'
+
+def publishGroupId = "com.tencent.qqdownloader"
+def publishArtifactId = "business-privacy"
+def publishVersion = "0.0.6"
+
+def publishURL = "https://mirrors.tencent.com/repository/maven/tassistant"
+def publishUserName = "kenxie"
+def publishUserPassword = "9537ad74605011eb9e0c6c92bf5e3645"
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = publishGroupId
+                artifactId = publishArtifactId
+                version = publishVersion
+            }
+        }
+        repositories {
+            maven {
+                url publishURL
+                credentials {
+                    username = publishUserName
+                    password = publishUserPassword
+                }
+            }
+        }
+    }
+}

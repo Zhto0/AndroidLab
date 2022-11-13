@@ -1,0 +1,27 @@
+一、组件化：
+
+Shell: 应用壳工程 app
+
+Module/Plugin: 业务模块
+
+Lib: 基础库
+    lib-imageloader
+    lib-alive
+    lib-reach
+    lib-hotfix
+    lib-plugin
+    lib-apm
+    lib-dyelog
+
+Base: 基础层
+    base-core
+    base-network
+    base-ui
+    base-framework
+    base-route
+
+二、基础架构
+MVVM
+MVI
+
+

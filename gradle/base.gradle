@@ -1,0 +1,54 @@
+import com.stan.buildsettings.*
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.stan.buildsettings'
+
+android {
+    // 编译sdk版本，仅编译时使用，不被打包到apk种
+    compileSdk BuildVersion.COMPILESDK
+
+    defaultConfig {
+        applicationId "com.stan.android"
+        // 最低兼容sdk版本
+        minSdk BuildVersion.MINSDK
+        // 向前兼容sdk版本
+        targetSdk BuildVersion.TARGETSDK
+        versionCode BuildVersion.CODE
+        versionName BuildVersion.NAME
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags ''
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+        }
+
+        release {
+            shrinkResources true //是否压缩资源，如果开启，gradle在编译时帮我们把没有使用的资源给移除
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    externalNativeBuild {
+        cmake {
+            path file('src/main/cpp/CMakeLists.txt')
+            version '3.18.1'
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
